@@ -55,13 +55,10 @@ spam-classification/
    - Run each cell sequentially to see the analysis
    - Modify parameters as needed for your specific use case
 
-2. **Running Individual Classifiers**:
+2. **Running Model Evaluation**:
    ```bash
    # Run Logistic Regression
-   python logistic-regression.py
-   
-   # Run Decision Tree Classifier
-   python decisiontree-regression.py
+   python evaluate_saved_model.py
    ```
 
 ## Dataset
@@ -72,8 +69,7 @@ The project uses a dataset of SMS messages labeled as spam or ham. The dataset i
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| Logistic Regression | - | - | - | - |
-| Decision Tree | - | - | - | - |
+| Baynesian Spam Classification | 0.9953 | 0.9737 | 0.9920 | 0.9828 |
 
 *Note: Replace the above placeholders with actual performance metrics from your models.*
 
